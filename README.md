@@ -7,6 +7,6 @@ Angular tutorial
 - Angular CLI
 
 Check if npm is installed
-`
+```
 npm -v
-`
+```
