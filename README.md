@@ -101,6 +101,7 @@ Open file src/app/app.module.ts and check declarations array. Our components are
 
 ### Concept:
 ### Data Binding
+Binding view to the field in the component, whenever the field in the component changes, the view is automatically notified.
 Create a file in src/app/course.component.ts and paste the following code
 ```
 import {  Component } from '@angular/core';
