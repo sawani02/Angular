@@ -1,7 +1,7 @@
 
 # Angular Project
 
-Angular4 tutorial
+Angular4 tutorial: Simple angular project to understand angular cli, components, directives, binding and services.
 
 Angular: It is a framework to build client applications in HTML, CSS and Javascript/Typescript
 
