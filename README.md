@@ -83,7 +83,7 @@ ng g c audio
 - g: generate
 - c: component
 The above command creates and update files as follows
-<img src="https://github.com/sawani02/Angular/blob/master/Images/Screen%20Shot%202018-11-27%20at%2010.28.25%20PM.png" width="400">
+<img src="https://github.com/sawani02/Angular/blob/master/images/Screen%20Shot%202018-11-27%20at%2010.28.25%20PM.png" width="400">
 
 - component.scss: to store the stylesheet
 - component.html: to store templates
