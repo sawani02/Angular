@@ -1,33 +1,5 @@
-# LearnAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-
-# Angular
+# Angular Project
 
 Angular4 tutorial
 
@@ -55,7 +27,34 @@ ng new learn-angular --style=scss --routing
 - new: one the many commands we can issue to CLI
 - Optional flags: **Saas** enabled: generate a project which is Saas enabled, 
 **--routing**: this will help us create routing file.
+## Readme file in app
+# LearnAngular
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 Launching CLI on browser
 ```
 ng serve -o
@@ -63,7 +62,7 @@ ng serve -o
 -o flag tells the CLI to launch your browser with project. It will automatically live reaload!
 
 ## Project Structure
-<img src="https://github.com/sawani02/Angular/blob/master/Images/Screen%20Shot%202018-11-27%20at%207.53.28%20PM.png" width="400">
+<img src="https://github.com/sawani02/Angular/blob/master/images/Screen%20Shot%202018-11-27%20at%207.53.28%20PM.png" width="400">
 
 - e2e(end to end): To write end to end tests for application.
 - node modules: Stores all the third party libraries that our application may depend upon.This folder is for development. These third party libraries are put in bundle and deployed within application. Do not deploy this node modules on server.
@@ -93,7 +92,7 @@ The above command creates and update files as follows
 
 Open file src/app/app.module.ts and check declarations array. Our components are registered in module.
 
-<img src="https://github.com/sawani02/Angular/blob/master/Images/Screen%20Shot%202018-11-27%20at%2010.38.38%20PM.png" width="400">
+<img src="https://github.com/sawani02/Angular/blob/master/images/Screen%20Shot%202018-11-27%20at%2010.38.38%20PM.png" width="400">
 
 ### Module
 - It has group of components
@@ -158,7 +157,7 @@ In src/app/app.component.html, check the selector value in src/app/courses.compo
 ```
 Run the app using ng serve -o
 
-<img src="https://github.com/sawani02/Angular/blob/master/Images/Screen%20Shot%202018-11-28%20at%209.52.21%20AM.png" width="400">
+<img src="https://github.com/sawani02/Angular/blob/master/images/Screen%20Shot%202018-11-28%20at%209.52.21%20AM.png" width="400">
 
 ## Directive:
 Directive is used to manipulate the DOM.
@@ -200,7 +199,7 @@ export class CoursesComponent{
 
 Check the code in browser
 
-<img src="https://github.com/sawani02/Angular/blob/master/Images/Screen%20Shot%202018-11-28%20at%203.28.50%20PM.png" width="400">
+<img src="https://github.com/sawani02/Angular/blob/master/images/Screen%20Shot%202018-11-28%20at%203.28.50%20PM.png" width="400">
 
 In real world applications, we will get courses from server as an object.
 
